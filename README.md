@@ -94,7 +94,7 @@ Taglib
 
 The thumbnail plugin includes a single tablib `<g:thumbnail>` with the following attributes:
 
-* **id** (obrigatory): The id of the thumbnail attribute;
+* **id** (mandatory): The id of the thumbnail attribute;
 * **width** (optional): The width you want your thumbnail to be displayed;
 * **height** (optional): The height you want your thumbnail to be displayed;
 * **class** (optional): The css class to be applied on the generated html img tag.
