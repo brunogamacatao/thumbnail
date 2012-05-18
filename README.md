@@ -89,6 +89,20 @@ Example
     Open the generated views, create a new person, updated it and see the listing.
 
 
+Taglib
+------
+
+The thumbnail plugin includes a single tablib `<g:thumbnail>` with the following attributes:
+
+* **id** (obrigatory): The id of the thumbnail attribute;
+* **width** (optional): The width you want your thumbnail to be displayed;
+* **height** (optional): The height you want your thumbnail to be displayed;
+* **class** (optional): The css class to be applied on the generated html img tag.
+
+### Example:
+
+    <g:thumbnail id="${personInstance.picture.id}" width="50" height="50"/>
+
 Screenshots
 -----------
 
