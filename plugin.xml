@@ -1,4 +1,4 @@
-<plugin name='thumbnail' version='1.1' grailsVersion='2.0 &gt; *'>
+<plugin name='thumbnail' version='1.2' grailsVersion='2.0 &gt; *'>
   <author>Bruno Gama Catao</author>
   <title>Thumbnail Plugin</title>
   <description>Simple plugin for handling image thumbnails.
@@ -20,6 +20,8 @@
   </repositories>
   <dependencies />
   <plugins />
-  <runtimePluginRequirements />
+  <runtimePluginRequirements>
+    <plugin name='burningImage' version='* &gt; 0.5' />
+  </runtimePluginRequirements>
   <behavior />
 </plugin>
