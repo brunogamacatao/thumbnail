@@ -94,16 +94,16 @@ Screenshots
 
 ### Create Person Screen:
 
-Bla
+![Create Person Screen](https://github.com/brunogamacatao/thumbnail/raw/master/screenshots/create.png "Create Screen")
 
 ### Show Person Screen:
 
-Bla
+![Show Person Screen](https://github.com/brunogamacatao/thumbnail/raw/master/screenshots/show.png "Show Screen")
 
 ### Edit Person Screen:
 
-Bla
+![Edit Person Screen](https://github.com/brunogamacatao/thumbnail/raw/master/screenshots/edit.png "Edit Screen")
 
 ### Person List Screen:
 
-Bla
+![Person List Screen](https://github.com/brunogamacatao/thumbnail/raw/master/screenshots/list.png "List Screen")
