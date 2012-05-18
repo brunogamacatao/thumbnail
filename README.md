@@ -32,34 +32,36 @@ Example
 
 1. Create a domain class:
 
-    grails create-domain-class Person
+        grails create-domain-class Person
 
 2. Edit the generated domain class:
 
-    import bgc.thumbnail.Thumbnail
-    
-    class Person {
-        String name
-        Thumbnail picture
+        import bgc.thumbnail.Thumbnail
         
-        static constraints = {
-            name(blank: false)
-            picture(blank: false)
+        class Person {
+            String name
+            Thumbnail picture
+            
+            static constraints = {
+                name(blank: false)
+                picture(blank: false)
+            }
         }
-    }
 
 3. Create a controller for the Person domain class:
 
-    grails create-controller Person
+        grails create-controller Person
 
 4. Edit the generated controller:
 
-    class PersonController {
-        def scaffold = true
-    }
+        class PersonController {
+            def scaffold = true
+        }
 
 5. Run the project:
 
-    grails run-app
+        grails run-app
 
 6. Enjoy it !
+
+    Open the generated views, create a new person, updated it and see the listing.
