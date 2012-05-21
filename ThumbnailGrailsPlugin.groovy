@@ -19,12 +19,12 @@ Simple plugin for handling image thumbnails.
 '''
 
     // URL to the plugin's documentation
-    def documentation = "http://grails.org/plugin/thumbnail"
+    def documentation = "https://github.com/brunogamacatao/thumbnail/blob/master/README.md"
 
     // Extra (optional) plugin metadata
 
     // License: one of 'APACHE', 'GPL2', 'GPL3'
-//    def license = "APACHE"
+   def license = "APACHE"
 
     // Details of company behind the plugin (if there is one)
 //    def organization = [ name: "My Company", url: "http://www.my-company.com/" ]
@@ -36,7 +36,7 @@ Simple plugin for handling image thumbnails.
 //    def issueManagement = [ system: "JIRA", url: "http://jira.grails.org/browse/GPMYPLUGIN" ]
 
     // Online location of the plugin's browseable source code.
-//    def scm = [ url: "http://svn.grails-plugins.codehaus.org/browse/grails-plugins/" ]
+   def scm = [ url: "https://github.com/brunogamacatao/thumbnail" ]
 
     def doWithWebDescriptor = { xml ->
         // TODO Implement additions to web.xml (optional), this event occurs before
