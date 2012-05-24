@@ -7,11 +7,20 @@
   <name>Thumbnail Plugin</name>
   <description>Simple plugin for handling image thumbnails.
 </description>
-  <url>http://grails.org/plugin/thumbnail</url>
+  <url>https://github.com/brunogamacatao/thumbnail/blob/master/README.md</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
   <developers>
     <developer>
       <name>Bruno Gama Catao</name>
     </developer>
   </developers>
+  <scm>
+    <url>https://github.com/brunogamacatao/thumbnail</url>
+  </scm>
   <dependencies />
 </project>

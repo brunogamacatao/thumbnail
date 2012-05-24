@@ -3,7 +3,7 @@
   <title>Thumbnail Plugin</title>
   <description>Simple plugin for handling image thumbnails.
 </description>
-  <documentation>http://grails.org/plugin/thumbnail</documentation>
+  <documentation>https://github.com/brunogamacatao/thumbnail/blob/master/README.md</documentation>
   <type>ThumbnailGrailsPlugin</type>
   <resources>
     <resource>bgc.thumbnail.ThumbnailController</resource>
